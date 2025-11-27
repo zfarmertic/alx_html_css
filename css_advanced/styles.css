@@ -93,3 +93,18 @@
 .LearnSpan{
     color: hsla(274, 100%, 72%, 1);
 }
+.quotes{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.quotes img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
