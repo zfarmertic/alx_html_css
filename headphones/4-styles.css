@@ -1,0 +1,25 @@
+footer{
+    background-color: rgb(1, 1, 45);
+    padding: 30px;
+}
+.footerDiv{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials img{
+    width: 25px;
+    height: 25px;
+}
+@media (max-width: 480px) {
+    .footerDiv{
+        /* display: flex; */
+        flex-direction: column;
+        gap: 30px;
+    }    
+    .footerLogo{
+        width: 100px;
+    }
+}
