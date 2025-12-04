@@ -1,0 +1,17 @@
+.pentagon {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(228, 112, 131, 0.854); /* Your desired color */
+  
+  /* The Key to the Pentagon */
+  clip-path: polygon(
+    50% 0%,       /* Top point */
+    100% 38%,     /* Top-right point */
+    82% 100%,     /* Bottom-right point */
+    18% 100%,     /* Bottom-left point */
+    0% 38%        /* Top-left point */
+  );
+}
+.percent{
+    top: 40px;
+}
